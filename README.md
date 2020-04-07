@@ -1,8 +1,8 @@
 # calico-project
 
 ## description
-練習用Web app
-todo的なものをみんなでPOSTできる
+練習用Web app。
+todo的なものをみんなでPOSTできる。
 
 - RDBとやりとりしてCRUDできる
 - JWTで認証できる
@@ -11,19 +11,30 @@ todo的なものをみんなでPOSTできる
 - 動きがヌルヌル
 - サクサク動いてノンストレス
 
-ざっくりやりたいことはこんな感じ。
+完成品のイメージはこんな感じ。
 最初なので深堀はなるべくしないでガンガン進める。
 
 ## requirement
 ### front
-- React
-- TypeScript
-- Redux
+#### React
+Vueも気になるけどまずはReact使ってみる。
 
-### Server
-- go
-- gin
-- sqlx
+#### TypeScript
+JSでも良いけど静的型付けに特に抵抗ないのでTSでやってみる。
 
-### Database
+#### Redux
+よくわからんが良いらしいので使ってみる
+
+### server
+#### go
+流行ってるしNoobに優しいので。
+
+#### gin
+早くて使いやすいっぽいので。
+
+#### sqlx
+生SQL書くのに慣れたいので。
+
+### database
 - MySQL
+ベタなので。
